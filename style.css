@@ -1,0 +1,93 @@
+@import url("styles/header.css");
+@import url("styles/banner.css");
+@import url("styles/carrossel.css");/*Este é o formato correto da importação caso eu queira importar um arquivo .css ou posso usar no style.css*/
+@import url("styles/contato.css");
+@import url("styles/rodape.css");
+
+:root {
+    --cor-de-fundo: #ebecee;
+    --branco: #ffffff;
+    --laranja: #eb9b00;
+    --azul-degrade: linear-gradient(97.54deg, #002F52 35.49%, #326589 165.37%);
+    --fonte-principal: "Poppins";
+    --azul: #002f52;
+    --fonte-secundaria: "josefin sans";
+    --preto: #000000;
+    --cinza: #474646;
+    --cinza-claro: #858585;
+}
+
+/** {
+    margin: 0;
+    padding: 0;
+}*/
+
+body {
+    background-color: var(--cor-de-fundo);
+    font-family: var(--fonte-principal);
+    font-size: 16px;
+    font-weight: 400;
+}
+
+
+
+/*
+.banner__titulo {
+    color: var(--branco);
+    font-family: var(--fonte-principal);
+    font-size: 18px;
+    font-weight: 700;
+}
+
+.input-container {
+    position: relative;
+    width: 350px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.banner__input {
+    width: 100%;
+    height: 40px;
+    border: 2px solid var(--branco);
+    border-radius: 24px;
+    background-color: transparent;
+    color: var(--branco);
+    font-size: 16px;
+    text-align: center;
+    padding-left: 50px;
+}
+
+.banner__input::placeholder {
+    color: rgba(255, 255, 255, 0.7);
+}
+
+.input-icon {
+    position: absolute;
+    left: 15px;
+    width: 20px;
+    height: 20px;
+    pointer-events: none;
+}
+
+/*CÓDIGO QUE EU FIZ */
+
+/*.banner__input {
+    width: 350px;
+    height: 40px;
+    border: solid var(--branco);
+    border-radius: 24px;
+    text-align: center;
+    background-color: transparent;
+    background: url('imagens/lupa.svg') no-repeat 10px center;
+    background-size: 20px; 
+    color: var(--branco); 
+}
+    */
+/*
+.banner__texto {
+    text-align: center;
+    font-weight: 500;
+    width: 300px;
+}*/
