@@ -25,7 +25,7 @@
         <div class="container">
             <input type="checkbox" id="menu" class="container__botao">
             <label for="menu" class="container__rotulo">
-                <span class="cabecalho__menu-hamburger conatiner__imagem"></span>
+                <span class="cabecalho__menu-hamburger container__imagem"></span>
             </label>
             <ul class="lista-menu">
                 <li class="lista-menu__titulo">Categorias</li>
@@ -50,31 +50,25 @@
         </div>
 
         <ul class="opcoes">
-            <input type="checkbox" id="opcoes-menu" class="opcoes__botao">
-            <label for="opcoes-menu" class="opcoes__rotulo">
-                <li class="opcoes__item">Categorias</li>
-            </label>
-
-            <ul class="lista-menu">
-                <li class="lista-menu__item">
-                    <a href="#" class="lista-menu__link">Programação</a>
-                </li>
-                <li class="lista-menu__item">
-                    <a href="#" class="lista-menu__link">Front-end</a>
-                </li>
-                <li class="lista-menu__item">
-                    <a href="#" class="lista-menu__link">Infraestrutura</a>
-                </li>
-                <li class="lista-menu__item">
-                    <a href="#" class="lista-menu__link">Business</a>
-                </li>
-                <li class="lista-menu__item">
-                    <a href="#" class="lista-menu__link">Designer & UX</a>
-                </li>
-            </ul>
+            <li class="opcoes__item">
+                <input type="checkbox" id="opcoes-menu" class="opcoes__botao">
+                <label for="opcoes-menu" class="opcoes__rotulo">
+                    Categorias
+                </label>
+        
+                <ul class="lista-menu">
+                    <li class="lista-menu__item"><a href="#" class="lista-menu__link">Programação</a></li>
+                    <li class="lista-menu__item"><a href="#" class="lista-menu__link">Front-end</a></li>
+                    <li class="lista-menu__item"><a href="#" class="lista-menu__link">Infraestrutura</a></li>
+                    <li class="lista-menu__item"><a href="#" class="lista-menu__link">Business</a></li>
+                    <li class="lista-menu__item"><a href="#" class="lista-menu__link">Designer & UX</a></li>
+                </ul>
+            </li>
+        
             <li class="opcoes__item"><a href="#" class="opcoes__link">Favoritos</a></li>
             <li class="opcoes__item"><a href="#" class="opcoes__link">Minha Estante</a></li>
         </ul>
+        
 
         <div class="container">
             <a href="#"><img src="imagens/Favoritos.svg" alt="Meus Favoritos"
@@ -127,6 +121,7 @@
                 <div class="swiper-button-prev"></div>
                 <div class="swiper-button-next"></div>
             </div>
+
             <div class="card">
                 <!--1ª linha-->
                 <div class="card__descricao">
@@ -182,15 +177,15 @@
                 <div class="swiper-button-prev"></div>
                 <div class="swiper-button-next"></div>
             </div>
-            <div class="card-autora">
+            <div class="card">
                 <!-- 1º linha -->
-                <div class="card__descricao-autora">
+                <div class="card__descricao">
                     <!-- 1º coluna -->
                     <div class="descricao-autora">
                         <img src="imagens/Estrelinhas.svg" alt="Avaliação 5 estrelas">
-                        <h3 class="descricao__titulo-autora-do-mes">Autora do Mês</h3>
-                        <h2 class="descricao__titulo-nome-autora">Juliana Agarikov</h2>
-                        <p class="descricao__texto-autora">Analista de sistemas e escritora, Juliana é especialista em
+                        <h3 class="descricao__titulo">Autora do Mês</h3>
+                        <h2 class="descricao__titulo-livro">Juliana Agarikov</h2>
+                        <p class="descricao__texto">Analista de sistemas e escritora, Juliana é especialista em
                             Front-End.
                         </p>
                     </div>
@@ -207,7 +202,7 @@
                         </li>
                     </ul>
                     <!-- 2º coluna -->
-                    <a href="#">Saiba mais</a>
+                    <a href="#" class="botoes__ancora">Saiba mais</a>
                 </div>
             </div>
         </div>
@@ -217,13 +212,13 @@
         <h2 class="topicos__titulo">tópicos visitados recentemente</h2>
         <div class="topicos__botoes">
             <a href="#" class="botoes__topicos">Android</a>
+            <a href="#" class="botoes__topicos">OO</a>
             <a href="#" class="botoes__topicos">Marketing Digital</a>
             <a href="#" class="botoes__topicos">Agile</a>
             <a href="#" class="botoes__topicos">Startups</a>
             <a href="#" class="botoes__topicos">HTML & CSS</a>
-            <a href="#" class="botoes__topicos">Python</a>
-            <a href="#" class="botoes__topicos">O O</a>
             <a href="#" class="botoes__topicos">Java</a>
+            <a href="#" class="botoes__topicos">Python</a>
         </div>
     </section>
 
@@ -362,7 +357,6 @@
 
     </footer>
 
-
     <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
 
     <!-- Este código abaixo eu importei para fazer o carrossel funcionar. Fui ao final da tela (API Documentation) 
@@ -378,9 +372,5 @@
             },
         });
     </script>
-
-
-
 </body>
-
 </html>
