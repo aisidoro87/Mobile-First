@@ -190,20 +190,18 @@
     }
 
     .swiper {
-        width: 50%;
+        width: 60%;
     }
 
     .swiper-button-next,
     .swiper-button-prev {
         display: block;
-        background: var(--azul-degrade);
-        border-radius: 40%;
         top: 60%;
     }
 
     .card {
         width: 50%;
-        margin: 1.5em auto;
+        margin: 2em auto;
     }
 
     .topicos__titulo {
@@ -249,7 +247,7 @@
     }
 
     .topicos {
-        padding: 3em 25vw;
+        padding: 2em 30vw;
     }
 
 }
